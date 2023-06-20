@@ -7,8 +7,8 @@
 	</head>
 	<Scene>
 		<NavigationInfo headlight="false"
-		                visibilityLimit="0.0"
-		                type='"EXAMINE", "ANY"'
+		                visibilityLimit="1"
+		                type='"walk", "ANY"'
 		                avatarSize="0.25, 1.75, 0.75"
 		                />
 		<Background DEF="WO_World"
@@ -24,7 +24,7 @@
 			           centerOfRotation="0 0 0"
 			           position="0.00 0.00 -0.00"
 			           orientation="-1.00 0.00 -0.00 0.00"
-			           fieldOfView="0.677"
+			           fieldOfView="0.8"
 			           />
 		</Transform>
 		<Transform DEF="Plane_TRANSFORM"
